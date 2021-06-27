@@ -7,7 +7,7 @@
 html {
     background-color: #F5F5F5;
     color: #3C3C3C;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     font-size: 1vh;
     text-shadow: 3px 2px 2px rgba(199, 130, 59, 0.15);
@@ -16,6 +16,16 @@ html {
 
 #end__of__page {
     margin-bottom: -30vh;
+}
+
+a {
+    color: #3C3C3C;
+  }
+  a:visited {
+    color: #3C3C3C;
+  }
+  a:hover, a:active, a:focus {
+    color:#3C3C3C;
 }
 
 .centered {
@@ -33,12 +43,12 @@ html {
     align-items: center;
 }
 
-.red__colored {
+.red__coloured {
     color: #FF5A5F;
 }
 
-.red__colored2 {
-    color: #A32229;
+.red__coloured2 {
+    color: #bd1e26;
 }
 
 .red__highlight {
@@ -48,6 +58,17 @@ html {
     padding-right: 0.9vw;
     padding-left: 0.9vw;
     font-weight: 520;
+    text-shadow: none;
+    box-shadow: 3px 2px 2px rgba(199, 130, 59, 0.15);
+}
+
+.red__highlight2 {
+    background-color: #FF5A5F;
+    border-radius: 20px;
+    line-height: 1.5;
+    padding-right: 0.9vw;
+    padding-left: 0.9vw;
+    font-weight: 350;
     text-shadow: none;
     box-shadow: 3px 2px 2px rgba(199, 130, 59, 0.15);
 }
@@ -75,6 +96,16 @@ html {
 .about__header {
     font-size: 3vw;
     font-weight: 400;
+}
+
+.long__text {
+    font-size: 2vw;
+    font-weight: 350;
+}
+
+.small__text {
+    font-size: 1vw;
+    font-weight: 350;
 }
 
 .logo {
